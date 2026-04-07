@@ -1,11 +1,11 @@
-# 🚦 Smart Traffic Monitoring System
+#  Smart Traffic Monitoring System
 ### UDP-based Distributed Traffic Monitoring
 
 **Authors:** Praneetha, Sudhiksha, Suravi
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project implements a **real-time smart traffic monitoring system** using a **UDP-based client-server architecture**. It simulates multiple traffic intersections where sensors continuously send data to a centralized server for analysis and congestion detection.
 
@@ -13,7 +13,7 @@ The system is designed to be **scalable, efficient, and low-latency**, making it
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 The goal of this project is to:
 
@@ -24,7 +24,7 @@ The goal of this project is to:
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The system follows a **client-server model**:
 
@@ -42,7 +42,7 @@ This architecture allows centralized control and easy scalability.
 
 ---
 
-## ⚡ Why UDP?
+##  Why UDP?
 
 We use **UDP (User Datagram Protocol)** because:
 
@@ -54,7 +54,7 @@ This makes it ideal for real-time systems where speed matters more than guarante
 
 ---
 
-## 🔌 Socket Programming
+##  Socket Programming
 
 The system is implemented in **C using socket programming**:
 
@@ -66,7 +66,7 @@ This enables efficient datagram-based communication between sensors and server.
 
 ---
 
-## 📦 Data Packet Design
+##  Data Packet Design
 
 The system uses a structured data packet:
 
